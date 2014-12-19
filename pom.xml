@@ -17,6 +17,8 @@
 
     <modules>
         <module>hello-world</module>
+        <module>work-managers</module>
+        <module>leaking</module>
     </modules>
 <!-- run with
  -DmiddlewareHome=/Users/arungup/tools/weblogic/12c
