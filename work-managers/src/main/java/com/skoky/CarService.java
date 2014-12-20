@@ -7,7 +7,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 @Path("/car")
 @Produces(MediaType.APPLICATION_JSON)
@@ -15,8 +14,9 @@ public class CarService {
 
     @GET
     @Path("{made}")
-    public Car getCarByMade(@PathParam("made") String made) {
+    public Car getCarByMade(@PathParam("made") String made) throws InterruptedException {
         Car c = new Car(made,"BMW");
+         Thread.sleep(50);
         return c;
     }
 
