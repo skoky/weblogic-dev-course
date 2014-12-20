@@ -5,8 +5,10 @@ package com.skoky.data;
  */
 public class Car {
 
+    private Long[] myHash;
     private String id;
     private String made;
+
 
     public Car() {
     }
@@ -14,6 +16,8 @@ public class Car {
     public Car(String id, String made) {
         this.id = id;
         this.made=made;
+        this.myHash = new Long[1024];
+        System.out.println("Hash allocated:"+myHash.length);
     }
 
     public String getId() {
