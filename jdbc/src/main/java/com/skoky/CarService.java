@@ -9,6 +9,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +26,10 @@ public class CarService {
         // List<String> owners = new DBHelperPS().getOwners();
         HashMap<String, String> result = new HashMap<String, String>();
         result.put("car",c.getMade());
-        result.put("owners", Arrays.toString(owners.toArray()));
+        if (owners!=null)
+            result.put("owners", Arrays.toString(owners.toArray()));
+        else
+            result.put("owners", "[]");
         return result;
     }
 
