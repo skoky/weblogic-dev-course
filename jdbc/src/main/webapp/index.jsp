@@ -5,6 +5,6 @@
     <title></title>
   </head>
   <body>
-    Hello World from WebLogic maven test
+    JDBC example from WebLogic maven test
   </body>
 </html>
