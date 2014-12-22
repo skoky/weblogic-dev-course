@@ -20,6 +20,7 @@
         <module>work-managers</module>
         <module>leaking</module>
         <module>jdbc</module>
+        <module>clustered</module>
     </modules>
 <!-- run with
  -DmiddlewareHome=/Users/arungup/tools/weblogic/12c
