@@ -6,5 +6,8 @@
   </head>
   <body>
     Hello World from clustered WebLogic app
+  <br/>
+  Session ID: <%= session.getId() %>
+
   </body>
 </html>
