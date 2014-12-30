@@ -21,12 +21,14 @@
         <module>leaking</module>
         <module>jdbc</module>
         <module>clustered</module>
+        <module>logging</module>
     </modules>
 <!-- run with
  -DmiddlewareHome=/Users/arungup/tools/weblogic/12c
  -DdomainHome=/Users/arungup/tools/weblogic/mydomain
  -Duser=admin
  -Dpassword=admin007
+ -Dtargets=server1
  -Dsource=/Users/arungup/code/samples/weblogic/wls-maven-sample/target/w
  -->
 
