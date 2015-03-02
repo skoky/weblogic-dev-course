@@ -13,9 +13,9 @@ import java.io.IOException;
 @WebServlet("/log")
 public class LoggingServlet extends HttpServlet {
 
-    private final static Logger log4j = Logger.getLogger(HttpServlet.class);
+    private final static Logger log4j = Logger.getLogger(LoggingServlet.class);
     private static final java.util.logging.Logger logJ =
-            java.util.logging.Logger.getLogger(HttpServlet.class.getSimpleName());
+            java.util.logging.Logger.getLogger(LoggingServlet.class.getSimpleName());
 
 
     @Override
