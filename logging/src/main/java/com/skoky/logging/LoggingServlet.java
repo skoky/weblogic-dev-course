@@ -13,8 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
-gic.logging.LoggingHelper;
-
 @WebServlet("/log")
 public class LoggingServlet extends HttpServlet {
 
