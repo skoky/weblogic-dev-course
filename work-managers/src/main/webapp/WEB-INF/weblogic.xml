@@ -6,6 +6,6 @@
         <!--<dispatch-policy>priority</dispatch-policy>-->
     </servlet-descriptor>
 
-<!--    <wl-dispatch-policy>priority</wl-dispatch-policy>  -->
+    <!--<wl-dispatch-policy>priority</wl-dispatch-policy>-->
 
 </weblogic-web-app>
